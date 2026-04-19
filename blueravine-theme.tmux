@@ -32,8 +32,8 @@ set -g @blueravine_timezone ''
 set-option -g status "on"
 set -g status-interval 2
 
-set-option -g status-fg '#c8cdd8' # fg
-set-option -g status-bg '#212636' # bg0
+set-option -g status-fg '#{@blueravine_fg}' # fg
+set-option -g status-bg '#{@blueravine_bg0}' # bg0
 
 set-option -g mode-style fg='#{@blueravine_purple}',bg='#{@blueravine_bg_red}' # fg=purple, bg=bg_visual
 

@@ -27,6 +27,8 @@ set -g @blueravine_statusline1 '#6da0d0'
 set -g @blueravine_statusline2 '#c8cdd8'
 set -g @blueravine_statusline3 '#e06070'
 
+set -g @blueravine_timezone ''
+
 set-option -g status "on"
 set -g status-interval 2
 
@@ -78,7 +80,7 @@ set -g status-left '#[fg=#{@blueravine_bg_dim},bg=#{@blueravine_blue},bold] #S #
 
 set-option -g status-right-style none
 set -g status-right-length 150
-set -g status-right '#[fg=#{@blueravine_bg2}]#[fg=#{@blueravine_fg},bg=#{@blueravine_bg2}] #[fg=#{@blueravine_fg},bg=#{@blueravine_bg2}]%Y-%m-%d  %H:%M #[fg=#{@blueravine_aqua},bg=#{@blueravine_bg2},bold]#[fg=#{@blueravine_bg_dim},bg=#{@blueravine_aqua},bold] #h '
+set -g status-right '#[fg=#{@blueravine_bg2}]#[fg=#{@blueravine_fg},bg=#{@blueravine_bg2}] #[fg=#{@blueravine_fg},bg=#{@blueravine_bg2}]#(TZ="#{@blueravine_timezone}" date +"\%Y-\%m-\%d  \%H:\%M") #[fg=#{@blueravine_aqua},bg=#{@blueravine_bg2},bold]#[fg=#{@blueravine_bg_dim},bg=#{@blueravine_aqua},bold] #h '
 
 set -g window-status-separator '#[fg=#{@blueravine_grey2},bg=#{@blueravine_bg0}] '
 set -g window-status-format "#[fg=#{@blueravine_grey0},bg=#{@blueravine_bg0}] #I  #[fg=#{@blueravine_grey0},bg=#{@blueravine_bg0}]#W "

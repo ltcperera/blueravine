@@ -1,39 +1,39 @@
 ## COLORSCHEME: blueravine dark
-set -g @blueravine_bg_dim '#1a1e2e'
-set -g @blueravine_bg0 '#212636'
-set -g @blueravine_bg1 '#2a3040'
-set -g @blueravine_bg2 '#333a4a'
-set -g @blueravine_bg3 '#3d4555'
-set -g @blueravine_bg4 '#474f60'
-set -g @blueravine_bg5 '#515a6b'
-set -g @blueravine_bg_visual '#3d3554'
-set -g @blueravine_bg_red '#3d3040'
-set -g @blueravine_bg_green '#2a3d3a'
-set -g @blueravine_bg_blue '#2a3550'
-set -g @blueravine_bg_yellow '#3d3a2e'
+set -g @blueravine_bg_dim '#232a2e'
+set -g @blueravine_bg0 '#2d353b'
+set -g @blueravine_bg1 '#343f44'
+set -g @blueravine_bg2 '#3d484d'
+set -g @blueravine_bg3 '#475258'
+set -g @blueravine_bg4 '#4f585e'
+set -g @blueravine_bg5 '#56635f'
+set -g @blueravine_bg_visual '#543a48'
+set -g @blueravine_bg_red '#514045'
+set -g @blueravine_bg_green '#425047'
+set -g @blueravine_bg_blue '#3a515d'
+set -g @blueravine_bg_yellow '#4d4c43'
 
-set -g @blueravine_fg '#c8cdd8'
-set -g @blueravine_red '#e06070'
-set -g @blueravine_orange '#d89070'
-set -g @blueravine_yellow '#d4b878'
-set -g @blueravine_green '#88b890'
-set -g @blueravine_aqua '#70b8b0'
-set -g @blueravine_blue '#6da0d0'
-set -g @blueravine_purple '#b088c8'
-set -g @blueravine_grey0 '#6a7080'
-set -g @blueravine_grey1 '#7a8090'
-set -g @blueravine_grey2 '#8a90a0'
-set -g @blueravine_statusline1 '#6da0d0'
-set -g @blueravine_statusline2 '#c8cdd8'
-set -g @blueravine_statusline3 '#e06070'
+set -g @blueravine_fg '#d3c6aa'
+set -g @blueravine_red '#e67e80'
+set -g @blueravine_orange '#e69875'
+set -g @blueravine_yellow '#dbbc7f'
+set -g @blueravine_green '#a7c080'
+set -g @blueravine_aqua '#83c092'
+set -g @blueravine_blue '#7fbbb3'
+set -g @blueravine_purple '#d699b6'
+set -g @blueravine_grey0 '#7a8478'
+set -g @blueravine_grey1 '#859289'
+set -g @blueravine_grey2 '#9da9a0'
+set -g @blueravine_statusline1 '#a7c080'
+set -g @blueravine_statusline2 '#d3c6aa'
+set -g @blueravine_statusline3 '#e67e80'
 
 set -g @blueravine_timezone ''
 
 set-option -g status "on"
 set -g status-interval 2
 
-set-option -g status-fg '#{@blueravine_fg}' # fg
-set-option -g status-bg '#{@blueravine_bg0}' # bg0
+set-option -g status-fg '#d3c6aa' # fg
+set-option -g status-bg '#2d353b' # bg0
 
 set-option -g mode-style fg='#{@blueravine_purple}',bg='#{@blueravine_bg_red}' # fg=purple, bg=bg_visual
 
@@ -56,8 +56,8 @@ set-option -g pane-border-style fg='#{@blueravine_bg1}' # fg=bg1
 set-option -g pane-active-border-style 'fg=#{@blueravine_blue}' # fg=blue
 
 # pane number display
-set-option -g display-panes-active-colour '#6da0d0' # blue
-set-option -g display-panes-colour '#d89070' # orange
+set-option -g display-panes-active-colour '#7fbbb3' # blue
+set-option -g display-panes-colour '#e69875' # orange
 
 # ---- Command ----
 # message info
@@ -68,7 +68,7 @@ set-option -g message-command-style 'fg=#{@blueravine_bg3},bg=#{@blueravine_bg1}
 
 # ---- Miscellaneous ----
 # clock
-set-window-option -g clock-mode-colour '#6da0d0' #blue
+set-window-option -g clock-mode-colour '#7fbbb3' #blue
 
 # bell
 set-window-option -g window-status-bell-style fg='#{@blueravine_bg0}',bg='#{@blueravine_statusline3}' # fg=bg, bg=statusline3

@@ -1,18 +1,18 @@
 ## COLORSCHEME: blueravine dark
 set -g @blueravine_bg_dim '#232a2e'
-set -g @blueravine_bg0 '#2d353b'
+set -g @blueravine_bg0 '#01111d'
 set -g @blueravine_bg1 '#343f44'
-set -g @blueravine_bg2 '#3d484d'
+set -g @blueravine_bg2 '#0b2942'
 set -g @blueravine_bg3 '#475258'
 set -g @blueravine_bg5 '#56635f'
 set -g @blueravine_bg_red '#514045'
 set -g @blueravine_bg_blue '#3a515d'
 
-set -g @blueravine_fg '#d3c6aa'
+set -g @blueravine_fg '#80a4c2'
 set -g @blueravine_aqua '#83c092'
 set -g @blueravine_blue '#7fbbb3'
 set -g @blueravine_purple '#d699b6'
-set -g @blueravine_grey0 '#7a8478'
+set -g @blueravine_grey0 '#44596b'
 set -g @blueravine_grey2 '#9da9a0'
 set -g @blueravine_statusline3 '#e67e80'
 
@@ -20,6 +20,11 @@ set -g @blueravine_timezone ''
 
 set-option -g status "on"
 set -g status-interval 2
+
+#set-option -g status-fg '#d3c6aa' # fg (No idea why I can't use variables here)
+#set-option -g status-bg '#2d353b' # bg0
+set-option -g status-fg '#EF5350' # fg (No idea why I can't use variables here)
+set-option -g status-bg '#01111d' # bg0
 
 set-option -g mode-style fg='#{@blueravine_purple}',bg='#{@blueravine_bg_red}' # fg=purple, bg=bg_visual
 

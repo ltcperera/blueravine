@@ -14,6 +14,16 @@ set -g @plugin 'leanderperera/blueravine'
 
 2. Install the plugin by pressing `prefix` + <kbd>I</kbd>.
 
+## Configuration
+
+### Timezone
+
+By default, the status bar displays the time in your local timezone. To use a different timezone, set `@blueravine_timezone` in your `~/.tmux.conf` after the plugin is loaded:
+
+```bash
+set -g @blueravine_timezone 'America/Los_Angeles'
+```
+
 ### Manual
 
 1. Clone the repository:

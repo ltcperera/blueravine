@@ -21,15 +21,13 @@ set -g @blueravine_timezone ''
 set-option -g status "on"
 set -g status-interval 2
 
-#set-option -g status-fg '#d3c6aa' # fg (No idea why I can't use variables here)
-#set-option -g status-bg '#2d353b' # bg0
-set-option -g status-fg '#EF5350' # fg (No idea why I can't use variables here)
-set-option -g status-bg '#01111d' # bg0
+set-option -g status-fg '#80a4c2' # blueravine_fg - Deprecated, but needed for backward compatibility
+set-option -g status-bg '#01111d' # blueravine_bg0 - Deprecated, but needed for backward compatibility
 
 set-option -g mode-style fg='#{@blueravine_purple}',bg='#{@blueravine_bg_red}' # fg=purple, bg=bg_visual
 
 # default statusbar colors
-set-option -g status-style fg='#{@blueravine_fg}',bg='#{@blueravine_bg_dim}',default # fg=fg bg=bg_dim
+set-option -g status-style fg='#{@blueravine_fg}',bg='#{@blueravine_bg0}',default # fg=fg bg=bg_dim
 
 # ---- Windows ----
 # default window title colors
